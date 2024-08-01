@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.dao.productDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.dao.productDaoTest
+testGetProducts  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.productDaoTest.testGetProducts(productDaoTest.java:41)
+

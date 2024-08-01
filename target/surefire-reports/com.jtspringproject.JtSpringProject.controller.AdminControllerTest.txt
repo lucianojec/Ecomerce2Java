@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.controller.AdminControllerTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.88 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.controller.AdminControllerTest
+testRemoveProduct  Time elapsed: 0.026 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.jtspringproject.JtSpringProject.controller.AdminControllerTest.testRemoveProduct(AdminControllerTest.java:237)
+
+testRemoveCategory  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.jtspringproject.JtSpringProject.controller.AdminControllerTest.testRemoveCategory(AdminControllerTest.java:151)
+

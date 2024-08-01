@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.dao.userDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.dao.userDaoTest
+testGetAllUser  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.userDaoTest.testGetAllUser(userDaoTest.java:42)
+
+testGetUser_InvalidPassword  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.userDaoTest.testGetUser_InvalidPassword(userDaoTest.java:89)
+
+testGetUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.userDaoTest.testGetUser(userDaoTest.java:69)
+
+testUserNotExists  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.userDaoTest.testUserNotExists(userDaoTest.java:124)
+
+testUserExists  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.userDaoTest.testUserExists(userDaoTest.java:107)
+

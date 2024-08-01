@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.dao.cartProductDaoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.208 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.dao.cartProductDaoTest
+testGetCartProducts  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.cartProductDaoTest.testGetCartProducts(cartProductDaoTest.java:53)
+

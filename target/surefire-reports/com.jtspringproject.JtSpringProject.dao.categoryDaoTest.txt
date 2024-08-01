@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.dao.categoryDaoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.dao.categoryDaoTest
+testGetCategories  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jtspringproject.JtSpringProject.dao.categoryDaoTest.testGetCategories(categoryDaoTest.java:42)
+
